@@ -1,0 +1,25 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 51, in script
+    python:
+  File "game/script.rpy", line 52, in <module>
+    import requests
+ImportError: No module named requests
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 51, in script
+    python:
+  File "C:\Users\Thomas Han\Downloads\renpy-6.99.12.2-sdk\renpy\ast.py", line 814, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Thomas Han\Downloads\renpy-6.99.12.2-sdk\renpy\python.py", line 1695, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script.rpy", line 52, in <module>
+    import requests
+ImportError: No module named requests
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.2.2029
+Currency_stuff 1.0

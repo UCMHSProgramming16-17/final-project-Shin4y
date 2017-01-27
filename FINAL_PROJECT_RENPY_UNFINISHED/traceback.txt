@@ -1,0 +1,25 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 64, in script
+    python:
+  File "game/script.rpy", line 65, in <module>
+    plotly.tools.set_credentials_file(username='Shin4y', api_key='sR7volNuu8cIT6HIEGtQ')
+AttributeError: 'module' object has no attribute 'tools'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 64, in script
+    python:
+  File "/Volumes/renpy-6.99.12.2-sdk/renpy-6.99.12.2-sdk/renpy/ast.py", line 814, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Volumes/renpy-6.99.12.2-sdk/renpy-6.99.12.2-sdk/renpy/python.py", line 1695, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script.rpy", line 65, in <module>
+    plotly.tools.set_credentials_file(username='Shin4y', api_key='sR7volNuu8cIT6HIEGtQ')
+AttributeError: 'module' object has no attribute 'tools'
+
+Darwin-16.0.0-x86_64-i386-64bit
+Ren'Py 6.99.12.2.2029
+Currency_stuff 1.0
